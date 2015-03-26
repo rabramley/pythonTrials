@@ -1,35 +1,26 @@
-from os import getenv
-import pymssql
+import pymssql, argparse
 
-server = getenv("PYMSSQL_TEST_SERVER")
-user = getenv("PYMSSQL_TEST_USERNAME")
-password = getenv("PYMSSQL_TEST_PASSWORD")
+def main():
+    args = getArgs()
+    connectAndSelect(args.server, args.username, args.password, args.database)
 
-conn = pymssql.connect(server, user, password, "tempdb")
-cursor = conn.cursor()
-cursor.execute("""
-IF OBJECT_ID('persons', 'U') IS NOT NULL
-    DROP TABLE persons
-CREATE TABLE persons (
-    id INT NOT NULL,
-    name VARCHAR(100),
-    salesrep VARCHAR(100),
-    PRIMARY KEY(id)
-)
-""")
-cursor.executemany(
-    "INSERT INTO persons VALUES (%d, %s, %s)",
-    [(1, 'John Smith', 'John Doe'),
-     (2, 'Jane Doe', 'Joe Dog'),
-     (3, 'Mike T.', 'Sarah H.')])
-# you must call commit() to persist your data if you don't set autocommit to True
-conn.commit()
+def getArgs():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-u", "--username", required=True, help="Username")
+    parser.add_argument("-p", "--password", required=True, help="Password")
+    parser.add_argument("-s", "--server", required=True, help="Server")
+    parser.add_argument("-d", "--database", required=True, help="Database")
+    return parser.parse_args()
 
-cursor.execute('SELECT * FROM persons WHERE salesrep=%s', 'John Doe')
-row = cursor.fetchone()
-while row:
-    print("ID=%d, Name=%s" % (row[0], row[1]))
-    row = cursor.fetchone()
+def connectAndSelect(server, username, password, database):
+    with pymssql.connect(server, username, password, database) as conn:
+        # as_dict means that cursor returns a dictionary so column names can be used
+        with conn.cursor(as_dict=True) as cursor:
+            cursor.execute('SELECT TOP 100 * FROM concept_dimension WHERE concept_cd LIKE %s', 'CBO:%')
+            row = cursor.fetchone()
+            while row:
+                print("Name=%s" % (row['name_char']))
+                row = cursor.fetchone()
 
-conn.close()
-
+if __name__ == "__main__":
+    main()
