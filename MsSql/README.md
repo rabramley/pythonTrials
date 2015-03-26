@@ -14,4 +14,4 @@
 
 ### Gotchas
 
-- Servers with an instance must use a double backslash: i.e., server\\instance
+- Servers with an instance must use a double backslash: i.e., server\\\\instance
