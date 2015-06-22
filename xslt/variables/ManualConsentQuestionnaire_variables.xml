@@ -1,0 +1,412 @@
+<variables xmlns='http://briccs.org.uk/xml/onyxvariables/v1.0/ov' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <variable name="QuestionnaireRun.version" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="description" valueType="text" locale="en">Use this stage to identify which questions on the paper consent form the participant has consented to.</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage. </attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.locale" valueType="locale" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="description" valueType="text" locale="en">Use this stage to identify which questions on the paper consent form the participant has consented to.</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage. </attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.timeStart" valueType="datetime" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="description" valueType="text" locale="en">Use this stage to identify which questions on the paper consent form the participant has consented to.</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage. </attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.timeEnd" valueType="datetime" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="description" valueType="text" locale="en">Use this stage to identify which questions on the paper consent form the participant has consented to.</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage. </attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.user" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="description" valueType="text" locale="en">Use this stage to identify which questions on the paper consent form the participant has consented to.</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage. </attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.section" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.page" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.duration" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.questionCount" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.missingCount" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="consent_q1" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q1</attribute>
+      <attribute name="label" valueType="text" locale="en">Does the participant understand the request for consent?</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="Y" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Yes</attribute>
+        </attributes>
+      </category>
+      <category name="N" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">No</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="consent_q1.Y" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;consent_q1&apos;).any(&apos;Y&apos;)</attribute>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q1</attribute>
+      <attribute name="label" valueType="text" locale="en">Yes</attribute>
+      <attribute name="categoryName" valueType="text">Y</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ManualConsentQuestionnaire.consent_q1]</attribute>
+    </attributes>
+  </variable>
+  <variable name="consent_q1.N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;consent_q1&apos;).any(&apos;N&apos;)</attribute>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q1</attribute>
+      <attribute name="label" valueType="text" locale="en">No</attribute>
+      <attribute name="categoryName" valueType="text">N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ManualConsentQuestionnaire.consent_q1]</attribute>
+    </attributes>
+  </variable>
+  <variable name="consent_q1.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q1</attribute>
+      <attribute name="commentFor" valueType="text">consent_q1</attribute>
+    </attributes>
+  </variable>
+  <variable name="consent_q2" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q2</attribute>
+      <attribute name="label" valueType="text" locale="en">Does the participant consent to donate blood and urine?</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="Y" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Yes</attribute>
+        </attributes>
+      </category>
+      <category name="N" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">No</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="consent_q2.Y" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;consent_q2&apos;).any(&apos;Y&apos;)</attribute>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q2</attribute>
+      <attribute name="label" valueType="text" locale="en">Yes</attribute>
+      <attribute name="categoryName" valueType="text">Y</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ManualConsentQuestionnaire.consent_q2]</attribute>
+    </attributes>
+  </variable>
+  <variable name="consent_q2.N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;consent_q2&apos;).any(&apos;N&apos;)</attribute>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q2</attribute>
+      <attribute name="label" valueType="text" locale="en">No</attribute>
+      <attribute name="categoryName" valueType="text">N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ManualConsentQuestionnaire.consent_q2]</attribute>
+    </attributes>
+  </variable>
+  <variable name="consent_q2.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q2</attribute>
+      <attribute name="commentFor" valueType="text">consent_q2</attribute>
+    </attributes>
+  </variable>
+  <variable name="consent_q3" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q3</attribute>
+      <attribute name="label" valueType="text" locale="en">Does the participant consent to entry in the BRICCS database?</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="Y" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Yes</attribute>
+        </attributes>
+      </category>
+      <category name="N" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">No</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="consent_q3.Y" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;consent_q3&apos;).any(&apos;Y&apos;)</attribute>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q3</attribute>
+      <attribute name="label" valueType="text" locale="en">Yes</attribute>
+      <attribute name="categoryName" valueType="text">Y</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ManualConsentQuestionnaire.consent_q3]</attribute>
+    </attributes>
+  </variable>
+  <variable name="consent_q3.N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;consent_q3&apos;).any(&apos;N&apos;)</attribute>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q3</attribute>
+      <attribute name="label" valueType="text" locale="en">No</attribute>
+      <attribute name="categoryName" valueType="text">N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ManualConsentQuestionnaire.consent_q3]</attribute>
+    </attributes>
+  </variable>
+  <variable name="consent_q3.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q3</attribute>
+      <attribute name="commentFor" valueType="text">consent_q3</attribute>
+    </attributes>
+  </variable>
+  <variable name="consent_q4" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q4</attribute>
+      <attribute name="label" valueType="text" locale="en">Does the participant consent to possible further contact from BRU?</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="Y" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Yes</attribute>
+        </attributes>
+      </category>
+      <category name="N" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">No</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="consent_q4.Y" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;consent_q4&apos;).any(&apos;Y&apos;)</attribute>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q4</attribute>
+      <attribute name="label" valueType="text" locale="en">Yes</attribute>
+      <attribute name="categoryName" valueType="text">Y</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ManualConsentQuestionnaire.consent_q4]</attribute>
+    </attributes>
+  </variable>
+  <variable name="consent_q4.N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;consent_q4&apos;).any(&apos;N&apos;)</attribute>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q4</attribute>
+      <attribute name="label" valueType="text" locale="en">No</attribute>
+      <attribute name="categoryName" valueType="text">N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ManualConsentQuestionnaire.consent_q4]</attribute>
+    </attributes>
+  </variable>
+  <variable name="consent_q4.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q4</attribute>
+      <attribute name="commentFor" valueType="text">consent_q4</attribute>
+    </attributes>
+  </variable>
+  <variable name="consent_q5" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q5</attribute>
+      <attribute name="label" valueType="text" locale="en">Does the participant understand the rules for withdrawal?</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="Y" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Yes</attribute>
+        </attributes>
+      </category>
+      <category name="N" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">No</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="consent_q5.Y" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;consent_q5&apos;).any(&apos;Y&apos;)</attribute>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q5</attribute>
+      <attribute name="label" valueType="text" locale="en">Yes</attribute>
+      <attribute name="categoryName" valueType="text">Y</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ManualConsentQuestionnaire.consent_q5]</attribute>
+    </attributes>
+  </variable>
+  <variable name="consent_q5.N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;consent_q5&apos;).any(&apos;N&apos;)</attribute>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q5</attribute>
+      <attribute name="label" valueType="text" locale="en">No</attribute>
+      <attribute name="categoryName" valueType="text">N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ManualConsentQuestionnaire.consent_q5]</attribute>
+    </attributes>
+  </variable>
+  <variable name="consent_q5.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ManualConsentQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">consent_q5</attribute>
+      <attribute name="commentFor" valueType="text">consent_q5</attribute>
+    </attributes>
+  </variable>
+</variables>

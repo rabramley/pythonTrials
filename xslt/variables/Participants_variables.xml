@@ -1,0 +1,216 @@
+<variables xmlns='http://briccs.org.uk/xml/onyxvariables/v1.0/ov' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <variable name="Admin.Participant.age" valueType="integer" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">now().year() - $(&apos;Admin.Participant.birthDate&apos;).year() - (now().dayOfYear() &lt; $(&apos;Admin.Participant.birthDate&apos;).dayOfYear() ? 1 : 0)</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.Participant.appointmentDate" valueType="datetime" entityType="Participant"/>
+  <variable name="Admin.Action.dateTime" valueType="datetime" entityType="Participant" repeatable="true" occurrenceGroup="Action"/>
+  <variable name="Admin.Participant.birthYear" valueType="integer" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;Admin.Participant.birthDate&apos;).year()</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.Participant.pat_gp" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="group" valueType="text">DEFAULT_GROUP</attribute>
+      <attribute name="pii" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.Participant.pat_address1" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="group" valueType="text">DEFAULT_GROUP</attribute>
+      <attribute name="pii" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.Participant.gender" valueType="text" entityType="Participant">
+    <categories>
+      <category name="FEMALE"/>
+      <category name="MALE"/>
+    </categories>
+  </variable>
+  <variable name="Admin.Participant.pat_local_id" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="group" valueType="text">DEFAULT_GROUP</attribute>
+      <attribute name="pii" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.Interview.status" valueType="text" entityType="Participant">
+    <categories>
+      <category name="IN_PROGRESS"/>
+      <category name="CLOSED"/>
+      <category name="CANCELLED"/>
+      <category name="COMPLETED"/>
+    </categories>
+  </variable>
+  <variable name="Admin.Interview.startDate" valueType="datetime" entityType="Participant"/>
+  <variable name="Admin.Participant.firstName" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="pii" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.ApplicationConfiguration.siteCode" valueType="text" entityType="Participant"/>
+  <variable name="Admin.Interview.exportLog.captureEndDate" valueType="datetime" entityType="Participant" repeatable="true" occurrenceGroup="exportLog"/>
+  <variable name="Admin.Participant.fullName" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="pii" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.ApplicationConfiguration.siteName" valueType="text" entityType="Participant"/>
+  <variable name="Admin.Action.comment" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="Action"/>
+  <variable name="Admin.Participant.recruitmentType" valueType="text" entityType="Participant">
+    <categories>
+      <category name="ENROLLED"/>
+      <category name="VOLUNTEER"/>
+    </categories>
+  </variable>
+  <variable name="Admin.Action.actionType" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="Action">
+    <categories>
+      <category name="COMMENT"/>
+      <category name="COMPLETE"/>
+      <category name="EXECUTE"/>
+      <category name="INTERRUPT"/>
+      <category name="START"/>
+      <category name="STOP"/>
+      <category name="SKIP"/>
+    </categories>
+  </variable>
+  <variable name="Admin.Participant.pat_ethnicity" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="group" valueType="text">DEFAULT_GROUP</attribute>
+      <attribute name="pii" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.Interview.exportLog.captureStartDate" valueType="datetime" entityType="Participant" repeatable="true" occurrenceGroup="exportLog"/>
+  <variable name="Admin.Participant.pat_title" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="group" valueType="text">DEFAULT_GROUP</attribute>
+      <attribute name="pii" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.Participant.pat_address2" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="group" valueType="text">DEFAULT_GROUP</attribute>
+      <attribute name="pii" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.Participant.captureEndDate" valueType="datetime" entityType="Participant"/>
+  <variable name="Admin.Participant.pat_postcode" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="group" valueType="text">DEFAULT_GROUP</attribute>
+      <attribute name="pii" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.StageInstance.user" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="StageInstance"/>
+  <variable name="Admin.StageInstance.lastTime" valueType="datetime" entityType="Participant" repeatable="true" occurrenceGroup="StageInstance"/>
+  <variable name="Admin.StageInstance.lastState" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="StageInstance">
+    <categories>
+      <category name="Waiting"/>
+      <category name="Ready"/>
+      <category name="Skipped"/>
+      <category name="Contraindicated"/>
+      <category name="InProgress"/>
+      <category name="Interrupted"/>
+      <category name="Completed"/>
+      <category name="NotApplicable"/>
+    </categories>
+  </variable>
+  <variable name="Admin.Action.toState" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="Action">
+    <categories>
+      <category name="Waiting"/>
+      <category name="Ready"/>
+      <category name="Skipped"/>
+      <category name="Contraindicated"/>
+      <category name="InProgress"/>
+      <category name="Interrupted"/>
+      <category name="Completed"/>
+      <category name="NotApplicable"/>
+    </categories>
+  </variable>
+  <variable name="Admin.onyxVersion" valueType="text" entityType="Participant"/>
+  <variable name="Admin.Interview.exportLog.type" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="exportLog"/>
+  <variable name="Admin.Participant.pat_nhsnumber" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="group" valueType="text">DEFAULT_GROUP</attribute>
+      <attribute name="pii" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.Action.eventReason" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="Action"/>
+  <variable name="Admin.StageInstance.startTime" valueType="datetime" entityType="Participant" repeatable="true" occurrenceGroup="StageInstance"/>
+  <variable name="Admin.Participant.enrollmentId" valueType="text" entityType="Participant"/>
+  <variable name="Admin.Participant.birthDate" valueType="datetime" entityType="Participant">
+    <attributes>
+      <attribute name="pii" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.Action.user" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="Action"/>
+  <variable name="Admin.Interview.endDate" valueType="datetime" entityType="Participant"/>
+  <variable name="Admin.Participant.pat_address3" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="group" valueType="text">DEFAULT_GROUP</attribute>
+      <attribute name="pii" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.Participant.pat_workphone" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="group" valueType="text">DEFAULT_GROUP</attribute>
+      <attribute name="pii" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.Participant.lastName" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="pii" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.Action.stage" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="Action"/>
+  <variable name="Admin.Participant.captureStartDate" valueType="datetime" entityType="Participant"/>
+  <variable name="Admin.Participant.siteNo" valueType="text" entityType="Participant"/>
+  <variable name="Admin.StageInstance.last" valueType="boolean" entityType="Participant" repeatable="true" occurrenceGroup="StageInstance"/>
+  <variable name="Admin.StageInstance.duration" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="StageInstance"/>
+  <variable name="Admin.Interview.duration" valueType="integer" entityType="Participant"/>
+  <variable name="Admin.Interview.exportLog.exportDate" valueType="datetime" entityType="Participant" repeatable="true" occurrenceGroup="exportLog"/>
+  <variable name="Admin.Action.fromState" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="Action">
+    <categories>
+      <category name="Waiting"/>
+      <category name="Ready"/>
+      <category name="Skipped"/>
+      <category name="Contraindicated"/>
+      <category name="InProgress"/>
+      <category name="Interrupted"/>
+      <category name="Completed"/>
+      <category name="NotApplicable"/>
+    </categories>
+  </variable>
+  <variable name="Admin.Participant.pat_address4" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="group" valueType="text">DEFAULT_GROUP</attribute>
+      <attribute name="pii" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.Participant.barcode" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="identifier" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.ApplicationConfiguration.studyName" valueType="text" entityType="Participant"/>
+  <variable name="Admin.Interview.exportLog.destination" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="exportLog"/>
+  <variable name="Admin.StageInstance.stage" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="StageInstance"/>
+  <variable name="Admin.Participant.pat_telephone" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="group" valueType="text">DEFAULT_GROUP</attribute>
+      <attribute name="pii" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="Admin.StageInstance.interruptionCount" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="StageInstance"/>
+  <variable name="Admin.Participant.PostalCodePrefix" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="label" valueType="text" locale="en">Age at Enrolment</attribute>
+      <attribute name="script" valueType="text">
+				
+					$(&apos;Participants:Admin.Interview.startDate&apos;).year() - $(&apos;Participants:Admin.Participant.birthDate&apos;).year() - 
+					($(&apos;Participants:Admin.Interview.startDate&apos;).dayOfYear() &lt; $(&apos;Participants:Admin.Participant.birthDate&apos;).dayOfYear()? 1:0)
+				
+			</attribute>
+    </attributes>
+  </variable>
+</variables>

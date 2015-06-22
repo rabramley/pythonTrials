@@ -1,0 +1,1357 @@
+<variables xmlns='http://briccs.org.uk/xml/onyxvariables/v1.0/ov' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <variable name="QuestionnaireRun.version" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.locale" valueType="locale" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.timeStart" valueType="datetime" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.timeEnd" valueType="datetime" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.user" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.section" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.page" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.duration" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.questionCount" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.missingCount" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_preg" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_preg</attribute>
+      <attribute name="label" valueType="text" locale="en">Are you pregnant?</attribute>
+      <attribute name="condition" valueType="text">Comparing[ParticipantProperty[gender] == Data[TEXT:FEMALE]]</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="N" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">No</attribute>
+        </attributes>
+      </category>
+      <category name="Y" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Yes</attribute>
+        </attributes>
+      </category>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="sample_preg.N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_preg&apos;).any(&apos;N&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_preg</attribute>
+      <attribute name="label" valueType="text" locale="en">No</attribute>
+      <attribute name="categoryName" valueType="text">N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_preg]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_preg.Y" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_preg&apos;).any(&apos;Y&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_preg</attribute>
+      <attribute name="label" valueType="text" locale="en">Yes</attribute>
+      <attribute name="categoryName" valueType="text">Y</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_preg]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_preg.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_preg&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_preg</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_preg]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_preg.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_preg&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_preg</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_preg]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_preg.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_preg</attribute>
+      <attribute name="commentFor" valueType="text">sample_preg</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_haem" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_haem</attribute>
+      <attribute name="label" valueType="text" locale="en">Do you have a blood clotting disease such as haemophilia?</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="N" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">No</attribute>
+        </attributes>
+      </category>
+      <category name="Y" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Yes</attribute>
+        </attributes>
+      </category>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="sample_haem.N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_haem&apos;).any(&apos;N&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_haem</attribute>
+      <attribute name="label" valueType="text" locale="en">No</attribute>
+      <attribute name="categoryName" valueType="text">N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_haem]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_haem.Y" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_haem&apos;).any(&apos;Y&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_haem</attribute>
+      <attribute name="label" valueType="text" locale="en">Yes</attribute>
+      <attribute name="categoryName" valueType="text">Y</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_haem]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_haem.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_haem&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_haem</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_haem]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_haem.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_haem&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_haem</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_haem]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_haem.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_haem</attribute>
+      <attribute name="commentFor" valueType="text">sample_haem</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_tra24h" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_tra24h</attribute>
+      <attribute name="label" valueType="text" locale="en">Have you received a blood transfusion or donated blood in the past 24 hours?</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="N" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">No</attribute>
+        </attributes>
+      </category>
+      <category name="Y" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Yes</attribute>
+        </attributes>
+      </category>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="sample_tra24h.N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_tra24h&apos;).any(&apos;N&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_tra24h</attribute>
+      <attribute name="label" valueType="text" locale="en">No</attribute>
+      <attribute name="categoryName" valueType="text">N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_tra24h]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_tra24h.Y" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_tra24h&apos;).any(&apos;Y&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_tra24h</attribute>
+      <attribute name="label" valueType="text" locale="en">Yes</attribute>
+      <attribute name="categoryName" valueType="text">Y</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_tra24h]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_tra24h.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_tra24h&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_tra24h</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_tra24h]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_tra24h.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_tra24h&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_tra24h</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_tra24h]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_tra24h.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_tra24h</attribute>
+      <attribute name="commentFor" valueType="text">sample_tra24h</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_tra3m" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_tra3m</attribute>
+      <attribute name="label" valueType="text" locale="en">Have you received a blood transfusion in the past three months?</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="N" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">No</attribute>
+        </attributes>
+      </category>
+      <category name="Y" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Yes</attribute>
+        </attributes>
+      </category>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="sample_tra3m.N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_tra3m&apos;).any(&apos;N&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_tra3m</attribute>
+      <attribute name="label" valueType="text" locale="en">No</attribute>
+      <attribute name="categoryName" valueType="text">N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_tra3m]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_tra3m.Y" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_tra3m&apos;).any(&apos;Y&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_tra3m</attribute>
+      <attribute name="label" valueType="text" locale="en">Yes</attribute>
+      <attribute name="categoryName" valueType="text">Y</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_tra3m]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_tra3m.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_tra3m&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_tra3m</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_tra3m]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_tra3m.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_tra3m&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_tra3m</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_tra3m]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_tra3m.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_tra3m</attribute>
+      <attribute name="commentFor" valueType="text">sample_tra3m</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_onc" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_onc</attribute>
+      <attribute name="label" valueType="text" locale="en">Have you received radiotherapy or chemotherapy treatment in the past twelve weeks?</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="N" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">No</attribute>
+        </attributes>
+      </category>
+      <category name="Y" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Yes</attribute>
+        </attributes>
+      </category>
+      <category name="PNA" missing="true" code="9998">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+        </attributes>
+      </category>
+      <category name="DK" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="sample_onc.N" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_onc&apos;).any(&apos;N&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_onc</attribute>
+      <attribute name="label" valueType="text" locale="en">No</attribute>
+      <attribute name="categoryName" valueType="text">N</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_onc]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_onc.Y" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_onc&apos;).any(&apos;Y&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_onc</attribute>
+      <attribute name="label" valueType="text" locale="en">Yes</attribute>
+      <attribute name="categoryName" valueType="text">Y</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_onc]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_onc.PNA" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_onc&apos;).any(&apos;PNA&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_onc</attribute>
+      <attribute name="label" valueType="text" locale="en">Prefer not to answer</attribute>
+      <attribute name="categoryName" valueType="text">PNA</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_onc]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_onc.DK" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;sample_onc&apos;).any(&apos;DK&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_onc</attribute>
+      <attribute name="label" valueType="text" locale="en">Don&apos;t know</attribute>
+      <attribute name="categoryName" valueType="text">DK</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.sample_onc]</attribute>
+    </attributes>
+  </variable>
+  <variable name="sample_onc.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">sample_onc</attribute>
+      <attribute name="commentFor" valueType="text">sample_onc</attribute>
+    </attributes>
+  </variable>
+  <variable name="food_lasteat_cat" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lasteat_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">When was the last time you had something to eat?</attribute>
+      <attribute name="instructions" valueType="text" locale="en">Indicate the time you last ate, or choose &apos;more than 24 hours&apos;.</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="TIME_24"/>
+      <category name="MORE_24_HOURS" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">More than 24 hours.</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="food_lasteat_cat.TIME_24" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;food_lasteat_cat&apos;).any(&apos;TIME_24&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lasteat_cat</attribute>
+      <attribute name="categoryName" valueType="text">TIME_24</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.food_lasteat_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="food_lasteat_day" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lasteat_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Day</attribute>
+      <attribute name="categoryName" valueType="text">TIME_24</attribute>
+      <attribute name="openAnswerName" valueType="text">TODAY_YESTERDAY</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.food_lasteat_cat.TIME_24]</attribute>
+    </attributes>
+    <categories>
+      <category name="TODAY" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Today</attribute>
+        </attributes>
+      </category>
+      <category name="YESTERDAY" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Yesterday</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="food_lasteat_hour" valueType="integer" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lasteat_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Time: HH</attribute>
+      <attribute name="unitLabel" valueType="text" locale="en">:</attribute>
+      <attribute name="categoryName" valueType="text">TIME_24</attribute>
+      <attribute name="openAnswerName" valueType="text">HOUR_24</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.food_lasteat_cat.TIME_24]</attribute>
+    </attributes>
+    <categories>
+      <category name="0" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">00</attribute>
+        </attributes>
+      </category>
+      <category name="1" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">01</attribute>
+        </attributes>
+      </category>
+      <category name="2" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">02</attribute>
+        </attributes>
+      </category>
+      <category name="3" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">03</attribute>
+        </attributes>
+      </category>
+      <category name="4" code="4">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">04</attribute>
+        </attributes>
+      </category>
+      <category name="5" code="5">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">05</attribute>
+        </attributes>
+      </category>
+      <category name="6" code="6">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">06</attribute>
+        </attributes>
+      </category>
+      <category name="7" code="7">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">07</attribute>
+        </attributes>
+      </category>
+      <category name="8" code="8">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">08</attribute>
+        </attributes>
+      </category>
+      <category name="9" code="9">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">09</attribute>
+        </attributes>
+      </category>
+      <category name="10" code="10">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">10</attribute>
+        </attributes>
+      </category>
+      <category name="11" code="11">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">11</attribute>
+        </attributes>
+      </category>
+      <category name="12" code="12">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">12</attribute>
+        </attributes>
+      </category>
+      <category name="13" code="13">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">13</attribute>
+        </attributes>
+      </category>
+      <category name="14" code="14">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">14</attribute>
+        </attributes>
+      </category>
+      <category name="15" code="15">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">15</attribute>
+        </attributes>
+      </category>
+      <category name="16" code="16">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">16</attribute>
+        </attributes>
+      </category>
+      <category name="17" code="17">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">17</attribute>
+        </attributes>
+      </category>
+      <category name="18" code="18">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">18</attribute>
+        </attributes>
+      </category>
+      <category name="19" code="19">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">19</attribute>
+        </attributes>
+      </category>
+      <category name="20" code="20">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">20</attribute>
+        </attributes>
+      </category>
+      <category name="21" code="21">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">21</attribute>
+        </attributes>
+      </category>
+      <category name="22" code="22">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">22</attribute>
+        </attributes>
+      </category>
+      <category name="23" code="23">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">23</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="food_lasteat_min" valueType="integer" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lasteat_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">MM</attribute>
+      <attribute name="categoryName" valueType="text">TIME_24</attribute>
+      <attribute name="openAnswerName" valueType="text">MINUTE_15</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.food_lasteat_cat.TIME_24]</attribute>
+    </attributes>
+    <categories>
+      <category name="0" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">00</attribute>
+        </attributes>
+      </category>
+      <category name="15" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">15</attribute>
+        </attributes>
+      </category>
+      <category name="30" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">30</attribute>
+        </attributes>
+      </category>
+      <category name="45" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">45</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="food_lasteat_cat.MORE_24_HOURS" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;food_lasteat_cat&apos;).any(&apos;MORE_24_HOURS&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lasteat_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">More than 24 hours.</attribute>
+      <attribute name="categoryName" valueType="text">MORE_24_HOURS</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.food_lasteat_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="food_lasteat_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lasteat_cat</attribute>
+      <attribute name="commentFor" valueType="text">food_lasteat_cat</attribute>
+    </attributes>
+  </variable>
+  <variable name="food_lastdrink_cat" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lastdrink_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">When was the last time you had anything to drink other than plain water?</attribute>
+      <attribute name="instructions" valueType="text" locale="en">Indicate time, or choose &apos;more than 24 hours&apos;.</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="TIME_24"/>
+      <category name="MORE_24_HOURS" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">More than 24 hours.</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="food_lastdrink_cat.TIME_24" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;food_lastdrink_cat&apos;).any(&apos;TIME_24&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lastdrink_cat</attribute>
+      <attribute name="categoryName" valueType="text">TIME_24</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.food_lastdrink_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="food_lastdrink_day" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lastdrink_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Day</attribute>
+      <attribute name="categoryName" valueType="text">TIME_24</attribute>
+      <attribute name="openAnswerName" valueType="text">TODAY_YESTERDAY</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.food_lastdrink_cat.TIME_24]</attribute>
+    </attributes>
+    <categories>
+      <category name="TODAY" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Today</attribute>
+        </attributes>
+      </category>
+      <category name="YESTERDAY" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Yesterday</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="food_lastdrink_hour" valueType="integer" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lastdrink_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Time: HH</attribute>
+      <attribute name="unitLabel" valueType="text" locale="en">:</attribute>
+      <attribute name="categoryName" valueType="text">TIME_24</attribute>
+      <attribute name="openAnswerName" valueType="text">HOUR_24</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.food_lastdrink_cat.TIME_24]</attribute>
+    </attributes>
+    <categories>
+      <category name="0" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">00</attribute>
+        </attributes>
+      </category>
+      <category name="1" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">01</attribute>
+        </attributes>
+      </category>
+      <category name="2" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">02</attribute>
+        </attributes>
+      </category>
+      <category name="3" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">03</attribute>
+        </attributes>
+      </category>
+      <category name="4" code="4">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">04</attribute>
+        </attributes>
+      </category>
+      <category name="5" code="5">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">05</attribute>
+        </attributes>
+      </category>
+      <category name="6" code="6">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">06</attribute>
+        </attributes>
+      </category>
+      <category name="7" code="7">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">07</attribute>
+        </attributes>
+      </category>
+      <category name="8" code="8">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">08</attribute>
+        </attributes>
+      </category>
+      <category name="9" code="9">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">09</attribute>
+        </attributes>
+      </category>
+      <category name="10" code="10">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">10</attribute>
+        </attributes>
+      </category>
+      <category name="11" code="11">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">11</attribute>
+        </attributes>
+      </category>
+      <category name="12" code="12">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">12</attribute>
+        </attributes>
+      </category>
+      <category name="13" code="13">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">13</attribute>
+        </attributes>
+      </category>
+      <category name="14" code="14">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">14</attribute>
+        </attributes>
+      </category>
+      <category name="15" code="15">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">15</attribute>
+        </attributes>
+      </category>
+      <category name="16" code="16">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">16</attribute>
+        </attributes>
+      </category>
+      <category name="17" code="17">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">17</attribute>
+        </attributes>
+      </category>
+      <category name="18" code="18">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">18</attribute>
+        </attributes>
+      </category>
+      <category name="19" code="19">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">19</attribute>
+        </attributes>
+      </category>
+      <category name="20" code="20">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">20</attribute>
+        </attributes>
+      </category>
+      <category name="21" code="21">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">21</attribute>
+        </attributes>
+      </category>
+      <category name="22" code="22">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">22</attribute>
+        </attributes>
+      </category>
+      <category name="23" code="23">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">23</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="food_lastdrink_min" valueType="integer" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lastdrink_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">MM</attribute>
+      <attribute name="categoryName" valueType="text">TIME_24</attribute>
+      <attribute name="openAnswerName" valueType="text">MINUTE_15</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.food_lastdrink_cat.TIME_24]</attribute>
+    </attributes>
+    <categories>
+      <category name="0" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">00</attribute>
+        </attributes>
+      </category>
+      <category name="15" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">15</attribute>
+        </attributes>
+      </category>
+      <category name="30" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">30</attribute>
+        </attributes>
+      </category>
+      <category name="45" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">45</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="food_lastdrink_cat.MORE_24_HOURS" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;food_lastdrink_cat&apos;).any(&apos;MORE_24_HOURS&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lastdrink_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">More than 24 hours.</attribute>
+      <attribute name="categoryName" valueType="text">MORE_24_HOURS</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.food_lastdrink_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="food_lastdrink_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lastdrink_cat</attribute>
+      <attribute name="commentFor" valueType="text">food_lastdrink_cat</attribute>
+    </attributes>
+  </variable>
+  <variable name="food_lastcaff_cat" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lastcaff_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">When was the last time you had a drink containing caffeine, including tea, coffee or an energy drink?</attribute>
+      <attribute name="instructions" valueType="text" locale="en">Indicate time, or choose &apos;more than 24 hours&apos;.</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="TIME_24"/>
+      <category name="MORE_24_HOURS" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">More than 24 hours.</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="food_lastcaff_cat.TIME_24" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;food_lastcaff_cat&apos;).any(&apos;TIME_24&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lastcaff_cat</attribute>
+      <attribute name="categoryName" valueType="text">TIME_24</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.food_lastcaff_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="food_lastcaff_day" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lastcaff_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Day</attribute>
+      <attribute name="categoryName" valueType="text">TIME_24</attribute>
+      <attribute name="openAnswerName" valueType="text">TODAY_YESTERDAY</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.food_lastcaff_cat.TIME_24]</attribute>
+    </attributes>
+    <categories>
+      <category name="TODAY" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Today</attribute>
+        </attributes>
+      </category>
+      <category name="YESTERDAY" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Yesterday</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="food_lastcaff_hour" valueType="integer" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lastcaff_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Time: HH</attribute>
+      <attribute name="unitLabel" valueType="text" locale="en">:</attribute>
+      <attribute name="categoryName" valueType="text">TIME_24</attribute>
+      <attribute name="openAnswerName" valueType="text">HOUR_24</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.food_lastcaff_cat.TIME_24]</attribute>
+    </attributes>
+    <categories>
+      <category name="0" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">00</attribute>
+        </attributes>
+      </category>
+      <category name="1" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">01</attribute>
+        </attributes>
+      </category>
+      <category name="2" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">02</attribute>
+        </attributes>
+      </category>
+      <category name="3" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">03</attribute>
+        </attributes>
+      </category>
+      <category name="4" code="4">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">04</attribute>
+        </attributes>
+      </category>
+      <category name="5" code="5">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">05</attribute>
+        </attributes>
+      </category>
+      <category name="6" code="6">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">06</attribute>
+        </attributes>
+      </category>
+      <category name="7" code="7">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">07</attribute>
+        </attributes>
+      </category>
+      <category name="8" code="8">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">08</attribute>
+        </attributes>
+      </category>
+      <category name="9" code="9">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">09</attribute>
+        </attributes>
+      </category>
+      <category name="10" code="10">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">10</attribute>
+        </attributes>
+      </category>
+      <category name="11" code="11">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">11</attribute>
+        </attributes>
+      </category>
+      <category name="12" code="12">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">12</attribute>
+        </attributes>
+      </category>
+      <category name="13" code="13">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">13</attribute>
+        </attributes>
+      </category>
+      <category name="14" code="14">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">14</attribute>
+        </attributes>
+      </category>
+      <category name="15" code="15">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">15</attribute>
+        </attributes>
+      </category>
+      <category name="16" code="16">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">16</attribute>
+        </attributes>
+      </category>
+      <category name="17" code="17">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">17</attribute>
+        </attributes>
+      </category>
+      <category name="18" code="18">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">18</attribute>
+        </attributes>
+      </category>
+      <category name="19" code="19">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">19</attribute>
+        </attributes>
+      </category>
+      <category name="20" code="20">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">20</attribute>
+        </attributes>
+      </category>
+      <category name="21" code="21">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">21</attribute>
+        </attributes>
+      </category>
+      <category name="22" code="22">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">22</attribute>
+        </attributes>
+      </category>
+      <category name="23" code="23">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">23</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="food_lastcaff_min" valueType="integer" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lastcaff_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">MM</attribute>
+      <attribute name="categoryName" valueType="text">TIME_24</attribute>
+      <attribute name="openAnswerName" valueType="text">MINUTE_15</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.food_lastcaff_cat.TIME_24]</attribute>
+    </attributes>
+    <categories>
+      <category name="0" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">00</attribute>
+        </attributes>
+      </category>
+      <category name="15" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">15</attribute>
+        </attributes>
+      </category>
+      <category name="30" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">30</attribute>
+        </attributes>
+      </category>
+      <category name="45" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">45</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="food_lastcaff_cat.MORE_24_HOURS" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;food_lastcaff_cat&apos;).any(&apos;MORE_24_HOURS&apos;)</attribute>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lastcaff_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">More than 24 hours.</attribute>
+      <attribute name="categoryName" valueType="text">MORE_24_HOURS</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[SamplePreliminaryQuestionnaire.food_lastcaff_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="food_lastcaff_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">SamplePreliminaryQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CONSIDERATIONS</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">food_lastcaff_cat</attribute>
+      <attribute name="commentFor" valueType="text">food_lastcaff_cat</attribute>
+    </attributes>
+  </variable>
+</variables>

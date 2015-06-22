@@ -1,0 +1,85 @@
+<variables xmlns='http://briccs.org.uk/xml/onyxvariables/v1.0/ov' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <variable name="RegisteredParticipantTube.remark.Sufficient_sample" valueType="boolean" entityType="Participant" repeatable="true" occurrenceGroup="RegisteredParticipantTube">
+    <attributes>
+      <attribute name="stage" valueType="text">UrineSamplesCollection</attribute>
+    </attributes>
+  </variable>
+  <variable name="RegisteredParticipantTube.remark.Haemolysed_sample" valueType="boolean" entityType="Participant" repeatable="true" occurrenceGroup="RegisteredParticipantTube">
+    <attributes>
+      <attribute name="stage" valueType="text">UrineSamplesCollection</attribute>
+    </attributes>
+  </variable>
+  <variable name="RegisteredParticipantTube.barcode" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="RegisteredParticipantTube">
+    <attributes>
+      <attribute name="stage" valueType="text">UrineSamplesCollection</attribute>
+      <attribute name="occurrenceCount" valueType="text">1</attribute>
+      <attribute name="identifier" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="RegisteredParticipantTube.registrationTime" valueType="datetime" entityType="Participant" repeatable="true" occurrenceGroup="RegisteredParticipantTube">
+    <attributes>
+      <attribute name="stage" valueType="text">UrineSamplesCollection</attribute>
+      <attribute name="occurrenceCount" valueType="text">1</attribute>
+    </attributes>
+  </variable>
+  <variable name="RegisteredParticipantTube.remark.Blood_in_urine" valueType="boolean" entityType="Participant" repeatable="true" occurrenceGroup="RegisteredParticipantTube">
+    <attributes>
+      <attribute name="stage" valueType="text">UrineSamplesCollection</attribute>
+    </attributes>
+  </variable>
+  <variable name="RegisteredParticipantTube.tubeCode" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="RegisteredParticipantTube">
+    <attributes>
+      <attribute name="stage" valueType="text">UrineSamplesCollection</attribute>
+    </attributes>
+  </variable>
+  <variable name="ParticipantTubeRegistration.Contraindication.type" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">UrineSamplesCollection</attribute>
+    </attributes>
+    <categories>
+      <category name="ASKED"/>
+      <category name="OBSERVED"/>
+    </categories>
+  </variable>
+  <variable name="ParticipantTubeRegistration.endTime" valueType="datetime" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">UrineSamplesCollection</attribute>
+    </attributes>
+  </variable>
+  <variable name="RegisteredParticipantTube.comment" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="RegisteredParticipantTube">
+    <attributes>
+      <attribute name="stage" valueType="text">UrineSamplesCollection</attribute>
+      <attribute name="occurrenceCount" valueType="text">1</attribute>
+    </attributes>
+  </variable>
+  <variable name="ParticipantTubeRegistration.otherContraindication" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">UrineSamplesCollection</attribute>
+    </attributes>
+  </variable>
+  <variable name="RegisteredParticipantTube.remark.Samples_wrong_order" valueType="boolean" entityType="Participant" repeatable="true" occurrenceGroup="RegisteredParticipantTube">
+    <attributes>
+      <attribute name="stage" valueType="text">UrineSamplesCollection</attribute>
+    </attributes>
+  </variable>
+  <variable name="RegisteredParticipantTube.prefixCode" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="RegisteredParticipantTube">
+    <attributes>
+      <attribute name="stage" valueType="text">UrineSamplesCollection</attribute>
+    </attributes>
+  </variable>
+  <variable name="ParticipantTubeRegistration.startTime" valueType="datetime" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">UrineSamplesCollection</attribute>
+    </attributes>
+  </variable>
+  <variable name="RegisteredParticipantTube.remark.Difficult_venepuncture" valueType="boolean" entityType="Participant" repeatable="true" occurrenceGroup="RegisteredParticipantTube">
+    <attributes>
+      <attribute name="stage" valueType="text">UrineSamplesCollection</attribute>
+    </attributes>
+  </variable>
+  <variable name="RegisteredParticipantTube.remark.Insufficient_sample" valueType="boolean" entityType="Participant" repeatable="true" occurrenceGroup="RegisteredParticipantTube">
+    <attributes>
+      <attribute name="stage" valueType="text">UrineSamplesCollection</attribute>
+    </attributes>
+  </variable>
+</variables>

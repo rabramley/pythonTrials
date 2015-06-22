@@ -1,0 +1,556 @@
+<variables xmlns='http://briccs.org.uk/xml/onyxvariables/v1.0/ov' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <variable name="QuestionnaireRun.version" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="label" valueType="text" locale="en">Conclusion</attribute>
+      <attribute name="description" valueType="text" locale="en">This concludes the data collection process for this patient. Please ensure all notes are returned to the Medical Records Department.</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the data collection process for this patient. Please ensure all notes are returned to the Medical Records Department.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.locale" valueType="locale" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="label" valueType="text" locale="en">Conclusion</attribute>
+      <attribute name="description" valueType="text" locale="en">This concludes the data collection process for this patient. Please ensure all notes are returned to the Medical Records Department.</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the data collection process for this patient. Please ensure all notes are returned to the Medical Records Department.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.timeStart" valueType="datetime" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="label" valueType="text" locale="en">Conclusion</attribute>
+      <attribute name="description" valueType="text" locale="en">This concludes the data collection process for this patient. Please ensure all notes are returned to the Medical Records Department.</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the data collection process for this patient. Please ensure all notes are returned to the Medical Records Department.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.timeEnd" valueType="datetime" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="label" valueType="text" locale="en">Conclusion</attribute>
+      <attribute name="description" valueType="text" locale="en">This concludes the data collection process for this patient. Please ensure all notes are returned to the Medical Records Department.</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the data collection process for this patient. Please ensure all notes are returned to the Medical Records Department.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.user" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="label" valueType="text" locale="en">Conclusion</attribute>
+      <attribute name="description" valueType="text" locale="en">This concludes the data collection process for this patient. Please ensure all notes are returned to the Medical Records Department.</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">This concludes the data collection process for this patient. Please ensure all notes are returned to the Medical Records Department.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.section" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.page" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.duration" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.questionCount" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.missingCount" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="CONCLUSION" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">CONCLUSION</attribute>
+      <attribute name="boilerplate" valueType="boolean">true</attribute>
+      <attribute name="label" valueType="text" locale="en">This concludes the data collection process for this patient. Please ensure all notes are returned to the Medical Records Department.</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_dischmeth" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_dischmeth</attribute>
+      <attribute name="label" valueType="text" locale="en">Discharge Method</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[RecruitmentContextQuestionnaire.epi_type.Inpatient]</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="Home" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Home</attribute>
+        </attributes>
+      </category>
+      <category name="Other_hospital" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Other hospital</attribute>
+        </attributes>
+      </category>
+      <category name="Convalescence" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Convalescence</attribute>
+        </attributes>
+      </category>
+      <category name="Death" code="4">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Death</attribute>
+        </attributes>
+      </category>
+      <category name="Other_specialty" code="8">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Other specialty in same hospital</attribute>
+        </attributes>
+      </category>
+      <category name="Unknown" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Unknown</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="epi_dischmeth.Home" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_dischmeth&apos;).any(&apos;Home&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_dischmeth</attribute>
+      <attribute name="label" valueType="text" locale="en">Home</attribute>
+      <attribute name="categoryName" valueType="text">Home</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.epi_dischmeth]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_dischmeth.Other_hospital" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_dischmeth&apos;).any(&apos;Other_hospital&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_dischmeth</attribute>
+      <attribute name="label" valueType="text" locale="en">Other hospital</attribute>
+      <attribute name="categoryName" valueType="text">Other_hospital</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.epi_dischmeth]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_dischmeth.Convalescence" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_dischmeth&apos;).any(&apos;Convalescence&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_dischmeth</attribute>
+      <attribute name="label" valueType="text" locale="en">Convalescence</attribute>
+      <attribute name="categoryName" valueType="text">Convalescence</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.epi_dischmeth]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_dischmeth.Death" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_dischmeth&apos;).any(&apos;Death&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_dischmeth</attribute>
+      <attribute name="label" valueType="text" locale="en">Death</attribute>
+      <attribute name="categoryName" valueType="text">Death</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.epi_dischmeth]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_dischmeth.Other_specialty" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_dischmeth&apos;).any(&apos;Other_specialty&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_dischmeth</attribute>
+      <attribute name="label" valueType="text" locale="en">Other specialty in same hospital</attribute>
+      <attribute name="categoryName" valueType="text">Other_specialty</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.epi_dischmeth]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_dischmeth.Unknown" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_dischmeth&apos;).any(&apos;Unknown&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_dischmeth</attribute>
+      <attribute name="label" valueType="text" locale="en">Unknown</attribute>
+      <attribute name="categoryName" valueType="text">Unknown</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.epi_dischmeth]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_dischmeth.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_dischmeth</attribute>
+      <attribute name="commentFor" valueType="text">epi_dischmeth</attribute>
+    </attributes>
+  </variable>
+  <variable name="drugs_discharge" valueType="text" entityType="Participant" repeatable="true">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">drugs_discharge</attribute>
+      <attribute name="label" valueType="text" locale="en">Drugs on discharge or departure from clinic</attribute>
+      <attribute name="condition" valueType="text">Computing[($1 &amp;&amp; !$2) || $3 || $4,[Questionnaire[RecruitmentContextQuestionnaire.epi_type.Inpatient], Questionnaire[ConclusionQuestionnaire.epi_dischmeth.Death], Questionnaire[RecruitmentContextQuestionnaire.epi_type.Outpatient], Questionnaire[RecruitmentContextQuestionnaire.epi_studycode.Study_Reference1]]]</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="NONE" missing="true" code="0">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">None</attribute>
+        </attributes>
+      </category>
+      <category name="Aspirin" code="1">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Aspirin</attribute>
+        </attributes>
+      </category>
+      <category name="ACEi_ARB" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">ACEi / ARB</attribute>
+        </attributes>
+      </category>
+      <category name="B_blocker" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">B-blocker</attribute>
+        </attributes>
+      </category>
+      <category name="Statin" code="4">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Statin</attribute>
+        </attributes>
+      </category>
+      <category name="Thienopyridine" code="5">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Thienopyridine inhibitor</attribute>
+        </attributes>
+      </category>
+      <category name="Nitrate" code="6">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Nitrate</attribute>
+        </attributes>
+      </category>
+      <category name="Thiazide" code="14">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Thiazide diuretic</attribute>
+        </attributes>
+      </category>
+      <category name="Aldosterone" code="7">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Aldosterone antagonist</attribute>
+        </attributes>
+      </category>
+      <category name="Warfarin" code="8">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Warfarin</attribute>
+        </attributes>
+      </category>
+      <category name="Calcium_blocker" code="10">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Calcium channel blocker</attribute>
+        </attributes>
+      </category>
+      <category name="Insulin" code="11">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Insulin</attribute>
+        </attributes>
+      </category>
+      <category name="Oral_hypoglycaemic" code="12">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Oral hypoglycaemic agent</attribute>
+        </attributes>
+      </category>
+      <category name="Others" code="13">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Others</attribute>
+        </attributes>
+      </category>
+      <category name="Unknown" missing="true" code="9999">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Unknown</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="drugs_discharge.NONE" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;drugs_discharge&apos;).any(&apos;NONE&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">drugs_discharge</attribute>
+      <attribute name="label" valueType="text" locale="en">None</attribute>
+      <attribute name="categoryName" valueType="text">NONE</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.drugs_discharge]</attribute>
+    </attributes>
+  </variable>
+  <variable name="drugs_discharge.Aspirin" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;drugs_discharge&apos;).any(&apos;Aspirin&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">drugs_discharge</attribute>
+      <attribute name="label" valueType="text" locale="en">Aspirin</attribute>
+      <attribute name="categoryName" valueType="text">Aspirin</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.drugs_discharge]</attribute>
+    </attributes>
+  </variable>
+  <variable name="drugs_discharge.ACEi_ARB" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;drugs_discharge&apos;).any(&apos;ACEi_ARB&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">drugs_discharge</attribute>
+      <attribute name="label" valueType="text" locale="en">ACEi / ARB</attribute>
+      <attribute name="categoryName" valueType="text">ACEi_ARB</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.drugs_discharge]</attribute>
+    </attributes>
+  </variable>
+  <variable name="drugs_discharge.B_blocker" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;drugs_discharge&apos;).any(&apos;B_blocker&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">drugs_discharge</attribute>
+      <attribute name="label" valueType="text" locale="en">B-blocker</attribute>
+      <attribute name="categoryName" valueType="text">B_blocker</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.drugs_discharge]</attribute>
+    </attributes>
+  </variable>
+  <variable name="drugs_discharge.Statin" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;drugs_discharge&apos;).any(&apos;Statin&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">drugs_discharge</attribute>
+      <attribute name="label" valueType="text" locale="en">Statin</attribute>
+      <attribute name="categoryName" valueType="text">Statin</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.drugs_discharge]</attribute>
+    </attributes>
+  </variable>
+  <variable name="drugs_discharge.Thienopyridine" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;drugs_discharge&apos;).any(&apos;Thienopyridine&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">drugs_discharge</attribute>
+      <attribute name="label" valueType="text" locale="en">Thienopyridine inhibitor</attribute>
+      <attribute name="categoryName" valueType="text">Thienopyridine</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.drugs_discharge]</attribute>
+    </attributes>
+  </variable>
+  <variable name="drugs_discharge.Nitrate" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;drugs_discharge&apos;).any(&apos;Nitrate&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">drugs_discharge</attribute>
+      <attribute name="label" valueType="text" locale="en">Nitrate</attribute>
+      <attribute name="categoryName" valueType="text">Nitrate</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.drugs_discharge]</attribute>
+    </attributes>
+  </variable>
+  <variable name="drugs_discharge.Thiazide" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;drugs_discharge&apos;).any(&apos;Thiazide&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">drugs_discharge</attribute>
+      <attribute name="label" valueType="text" locale="en">Thiazide diuretic</attribute>
+      <attribute name="categoryName" valueType="text">Thiazide</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.drugs_discharge]</attribute>
+    </attributes>
+  </variable>
+  <variable name="drugs_discharge.Aldosterone" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;drugs_discharge&apos;).any(&apos;Aldosterone&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">drugs_discharge</attribute>
+      <attribute name="label" valueType="text" locale="en">Aldosterone antagonist</attribute>
+      <attribute name="categoryName" valueType="text">Aldosterone</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.drugs_discharge]</attribute>
+    </attributes>
+  </variable>
+  <variable name="drugs_discharge.Warfarin" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;drugs_discharge&apos;).any(&apos;Warfarin&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">drugs_discharge</attribute>
+      <attribute name="label" valueType="text" locale="en">Warfarin</attribute>
+      <attribute name="categoryName" valueType="text">Warfarin</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.drugs_discharge]</attribute>
+    </attributes>
+  </variable>
+  <variable name="drugs_discharge.Calcium_blocker" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;drugs_discharge&apos;).any(&apos;Calcium_blocker&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">drugs_discharge</attribute>
+      <attribute name="label" valueType="text" locale="en">Calcium channel blocker</attribute>
+      <attribute name="categoryName" valueType="text">Calcium_blocker</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.drugs_discharge]</attribute>
+    </attributes>
+  </variable>
+  <variable name="drugs_discharge.Insulin" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;drugs_discharge&apos;).any(&apos;Insulin&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">drugs_discharge</attribute>
+      <attribute name="label" valueType="text" locale="en">Insulin</attribute>
+      <attribute name="categoryName" valueType="text">Insulin</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.drugs_discharge]</attribute>
+    </attributes>
+  </variable>
+  <variable name="drugs_discharge.Oral_hypoglycaemic" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;drugs_discharge&apos;).any(&apos;Oral_hypoglycaemic&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">drugs_discharge</attribute>
+      <attribute name="label" valueType="text" locale="en">Oral hypoglycaemic agent</attribute>
+      <attribute name="categoryName" valueType="text">Oral_hypoglycaemic</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.drugs_discharge]</attribute>
+    </attributes>
+  </variable>
+  <variable name="drugs_discharge.Others" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;drugs_discharge&apos;).any(&apos;Others&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">drugs_discharge</attribute>
+      <attribute name="label" valueType="text" locale="en">Others</attribute>
+      <attribute name="categoryName" valueType="text">Others</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.drugs_discharge]</attribute>
+    </attributes>
+  </variable>
+  <variable name="drugs_discharge.Unknown" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;drugs_discharge&apos;).any(&apos;Unknown&apos;)</attribute>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">drugs_discharge</attribute>
+      <attribute name="label" valueType="text" locale="en">Unknown</attribute>
+      <attribute name="categoryName" valueType="text">Unknown</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[ConclusionQuestionnaire.drugs_discharge]</attribute>
+    </attributes>
+  </variable>
+  <variable name="drugs_discharge.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">ConclusionQuestionnaire</attribute>
+      <attribute name="section" valueType="text">CHECKLIST</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">drugs_discharge</attribute>
+      <attribute name="commentFor" valueType="text">drugs_discharge</attribute>
+    </attributes>
+  </variable>
+</variables>

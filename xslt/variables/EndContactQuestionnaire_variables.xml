@@ -1,0 +1,731 @@
+<variables xmlns='http://briccs.org.uk/xml/onyxvariables/v1.0/ov' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <variable name="QuestionnaireRun.version" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="label" valueType="text" locale="en">Conclude Patient Interview</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">Please ensure that the patient has no further questions before concluding this stage.This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.locale" valueType="locale" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="label" valueType="text" locale="en">Conclude Patient Interview</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">Please ensure that the patient has no further questions before concluding this stage.This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.timeStart" valueType="datetime" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="label" valueType="text" locale="en">Conclude Patient Interview</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">Please ensure that the patient has no further questions before concluding this stage.This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.timeEnd" valueType="datetime" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="label" valueType="text" locale="en">Conclude Patient Interview</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">Please ensure that the patient has no further questions before concluding this stage.This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireRun.user" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="label" valueType="text" locale="en">Conclude Patient Interview</attribute>
+      <attribute name="labelNext" valueType="text" locale="en">Next</attribute>
+      <attribute name="labelPrevious" valueType="text" locale="en">Previous</attribute>
+      <attribute name="labelStart" valueType="text" locale="en">Start</attribute>
+      <attribute name="labelFinish" valueType="text" locale="en">Finish</attribute>
+      <attribute name="labelInterrupt" valueType="text" locale="en">Pause</attribute>
+      <attribute name="labelResume" valueType="text" locale="en">Resume</attribute>
+      <attribute name="labelCancel" valueType="text" locale="en">Cancel</attribute>
+      <attribute name="conclusion" valueType="text" locale="en">Please ensure that the patient has no further questions before concluding this stage.This concludes the questions for this stage. Please select &apos;finish&apos; to complete the stage.</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.section" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.page" valueType="text" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.duration" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.questionCount" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="QuestionnaireMetric.missingCount" valueType="integer" entityType="Participant" repeatable="true" occurrenceGroup="QuestionnaireMetric">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obswaist_cat" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obswaist_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Measurement around the waist (in centimetres):</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="OPEN_DEC" code="1"/>
+      <category name="Unable_Measure" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Unable to measure</attribute>
+        </attributes>
+      </category>
+      <category name="Participant_Refused" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Participant refused</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="epi_obswaist_cat.OPEN_DEC" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obswaist_cat&apos;).any(&apos;OPEN_DEC&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obswaist_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obswaist_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obswaist" valueType="decimal" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obswaist_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="openAnswerName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obswaist_cat.OPEN_DEC]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obswaist_cat.Unable_Measure" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obswaist_cat&apos;).any(&apos;Unable_Measure&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obswaist_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Unable to measure</attribute>
+      <attribute name="categoryName" valueType="text">Unable_Measure</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obswaist_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obswaist_cat.Participant_Refused" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obswaist_cat&apos;).any(&apos;Participant_Refused&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obswaist_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Participant refused</attribute>
+      <attribute name="categoryName" valueType="text">Participant_Refused</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obswaist_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obswaist_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obswaist_cat</attribute>
+      <attribute name="commentFor" valueType="text">epi_obswaist_cat</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obships_cat" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obships_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Measurement around the hips (in centimetres):</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="OPEN_DEC" code="1"/>
+      <category name="Unable_Measure" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Unable to measure</attribute>
+        </attributes>
+      </category>
+      <category name="Participant_Refused" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Participant refused</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="epi_obships_cat.OPEN_DEC" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obships_cat&apos;).any(&apos;OPEN_DEC&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obships_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obships_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obships" valueType="decimal" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obships_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="openAnswerName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obships_cat.OPEN_DEC]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obships_cat.Unable_Measure" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obships_cat&apos;).any(&apos;Unable_Measure&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obships_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Unable to measure</attribute>
+      <attribute name="categoryName" valueType="text">Unable_Measure</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obships_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obships_cat.Participant_Refused" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obships_cat&apos;).any(&apos;Participant_Refused&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obships_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Participant refused</attribute>
+      <attribute name="categoryName" valueType="text">Participant_Refused</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obships_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obships_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obships_cat</attribute>
+      <attribute name="commentFor" valueType="text">epi_obships_cat</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obsbiceps_cat" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obsbiceps_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Skin-fold measurement - biceps (in millimetres):</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="OPEN_DEC" code="1"/>
+      <category name="Unable_Measure" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Unable to measure</attribute>
+        </attributes>
+      </category>
+      <category name="Participant_Refused" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Participant refused</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="epi_obsbiceps_cat.OPEN_DEC" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obsbiceps_cat&apos;).any(&apos;OPEN_DEC&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obsbiceps_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obsbiceps_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obsbiceps" valueType="decimal" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obsbiceps_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="openAnswerName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obsbiceps_cat.OPEN_DEC]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obsbiceps_cat.Unable_Measure" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obsbiceps_cat&apos;).any(&apos;Unable_Measure&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obsbiceps_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Unable to measure</attribute>
+      <attribute name="categoryName" valueType="text">Unable_Measure</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obsbiceps_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obsbiceps_cat.Participant_Refused" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obsbiceps_cat&apos;).any(&apos;Participant_Refused&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obsbiceps_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Participant refused</attribute>
+      <attribute name="categoryName" valueType="text">Participant_Refused</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obsbiceps_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obsbiceps_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obsbiceps_cat</attribute>
+      <attribute name="commentFor" valueType="text">epi_obsbiceps_cat</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obstriceps_cat" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obstriceps_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Skin-fold measurement - triceps (in millimetres):</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="OPEN_DEC" code="1"/>
+      <category name="Unable_Measure" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Unable to measure</attribute>
+        </attributes>
+      </category>
+      <category name="Participant_Refused" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Participant refused</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="epi_obstriceps_cat.OPEN_DEC" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obstriceps_cat&apos;).any(&apos;OPEN_DEC&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obstriceps_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obstriceps_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obstriceps" valueType="decimal" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obstriceps_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="openAnswerName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obstriceps_cat.OPEN_DEC]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obstriceps_cat.Unable_Measure" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obstriceps_cat&apos;).any(&apos;Unable_Measure&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obstriceps_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Unable to measure</attribute>
+      <attribute name="categoryName" valueType="text">Unable_Measure</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obstriceps_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obstriceps_cat.Participant_Refused" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obstriceps_cat&apos;).any(&apos;Participant_Refused&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obstriceps_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Participant refused</attribute>
+      <attribute name="categoryName" valueType="text">Participant_Refused</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obstriceps_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obstriceps_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obstriceps_cat</attribute>
+      <attribute name="commentFor" valueType="text">epi_obstriceps_cat</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obssubscapular_cat" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obssubscapular_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Skin-fold measurement - subscapular (in millimetres):</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="OPEN_DEC" code="1"/>
+      <category name="Unable_Measure" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Unable to measure</attribute>
+        </attributes>
+      </category>
+      <category name="Participant_Refused" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Participant refused</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="epi_obssubscapular_cat.OPEN_DEC" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obssubscapular_cat&apos;).any(&apos;OPEN_DEC&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obssubscapular_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obssubscapular_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obssubscapular" valueType="decimal" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obssubscapular_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="openAnswerName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obssubscapular_cat.OPEN_DEC]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obssubscapular_cat.Unable_Measure" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obssubscapular_cat&apos;).any(&apos;Unable_Measure&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obssubscapular_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Unable to measure</attribute>
+      <attribute name="categoryName" valueType="text">Unable_Measure</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obssubscapular_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obssubscapular_cat.Participant_Refused" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obssubscapular_cat&apos;).any(&apos;Participant_Refused&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obssubscapular_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Participant refused</attribute>
+      <attribute name="categoryName" valueType="text">Participant_Refused</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obssubscapular_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obssubscapular_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obssubscapular_cat</attribute>
+      <attribute name="commentFor" valueType="text">epi_obssubscapular_cat</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obssuprailiac_cat" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obssuprailiac_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Skin-fold measurement - supra-iliac (in millimetres):</attribute>
+      <attribute name="required" valueType="text">true</attribute>
+    </attributes>
+    <categories>
+      <category name="OPEN_DEC" code="1"/>
+      <category name="Unable_Measure" code="2">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Unable to measure</attribute>
+        </attributes>
+      </category>
+      <category name="Participant_Refused" code="3">
+        <attributes>
+          <attribute name="label" valueType="text" locale="en">Participant refused</attribute>
+        </attributes>
+      </category>
+    </categories>
+  </variable>
+  <variable name="epi_obssuprailiac_cat.OPEN_DEC" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obssuprailiac_cat&apos;).any(&apos;OPEN_DEC&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obssuprailiac_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obssuprailiac_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obssuprailiac" valueType="decimal" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obssuprailiac_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="openAnswerName" valueType="text">OPEN_DEC</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obssuprailiac_cat.OPEN_DEC]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obssuprailiac_cat.Unable_Measure" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obssuprailiac_cat&apos;).any(&apos;Unable_Measure&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obssuprailiac_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Unable to measure</attribute>
+      <attribute name="categoryName" valueType="text">Unable_Measure</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obssuprailiac_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obssuprailiac_cat.Participant_Refused" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;epi_obssuprailiac_cat&apos;).any(&apos;Participant_Refused&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obssuprailiac_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Participant refused</attribute>
+      <attribute name="categoryName" valueType="text">Participant_Refused</attribute>
+      <attribute name="exclusiveChoiceCategoryVariable" valueType="boolean">true</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.epi_obssuprailiac_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="epi_obssuprailiac_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">epi_obssuprailiac_cat</attribute>
+      <attribute name="commentFor" valueType="text">epi_obssuprailiac_cat</attribute>
+    </attributes>
+  </variable>
+  <variable name="pat_email1_cat" valueType="text" entityType="Participant" repeatable="true">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">pat_email1_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Primary email address</attribute>
+      <attribute name="condition" valueType="text">Computing[$1 || $2,[Variable[Consent:consent_q4_signed], Questionnaire[ManualConsentQuestionnaire.consent_q4.Y]]]</attribute>
+      <attribute name="required" valueType="text">false</attribute>
+      <attribute name="maxCount" valueType="text">1</attribute>
+    </attributes>
+    <categories>
+      <category name="OPEN_AN"/>
+    </categories>
+  </variable>
+  <variable name="pat_email1_cat.OPEN_AN" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;pat_email1_cat&apos;).any(&apos;OPEN_AN&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">pat_email1_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_AN</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.pat_email1_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="pat_email1" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">pat_email1_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_AN</attribute>
+      <attribute name="openAnswerName" valueType="text">OPEN_AN</attribute>
+      <attribute name="validation" valueType="text">[String.Pattern[^[_A-Za-z0-9-]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*((\.[A-Za-z]{2,}){1}$)]]</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.pat_email1_cat.OPEN_AN]</attribute>
+    </attributes>
+  </variable>
+  <variable name="pat_email1_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">pat_email1_cat</attribute>
+      <attribute name="commentFor" valueType="text">pat_email1_cat</attribute>
+    </attributes>
+  </variable>
+  <variable name="pat_email2_cat" valueType="text" entityType="Participant" repeatable="true">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">pat_email2_cat</attribute>
+      <attribute name="label" valueType="text" locale="en">Additional email address</attribute>
+      <attribute name="condition" valueType="text">Computing[$1 || $2,[Variable[Consent:consent_q4_signed], Questionnaire[ManualConsentQuestionnaire.consent_q4.Y]]]</attribute>
+      <attribute name="required" valueType="text">false</attribute>
+      <attribute name="maxCount" valueType="text">1</attribute>
+    </attributes>
+    <categories>
+      <category name="OPEN_AN"/>
+    </categories>
+  </variable>
+  <variable name="pat_email2_cat.OPEN_AN" valueType="boolean" entityType="Participant">
+    <attributes>
+      <attribute name="script" valueType="text">$(&apos;pat_email2_cat&apos;).any(&apos;OPEN_AN&apos;)</attribute>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">pat_email2_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_AN</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.pat_email2_cat]</attribute>
+    </attributes>
+  </variable>
+  <variable name="pat_email2" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">pat_email2_cat</attribute>
+      <attribute name="categoryName" valueType="text">OPEN_AN</attribute>
+      <attribute name="openAnswerName" valueType="text">OPEN_AN</attribute>
+      <attribute name="validation" valueType="text">[String.Pattern[^[_A-Za-z0-9-]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*((\.[A-Za-z]{2,}){1}$)]]</attribute>
+      <attribute name="condition" valueType="text">Questionnaire[EndContactQuestionnaire.pat_email2_cat.OPEN_AN]</attribute>
+    </attributes>
+  </variable>
+  <variable name="pat_email2_cat.comment" valueType="text" entityType="Participant">
+    <attributes>
+      <attribute name="stage" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="questionnaire" valueType="text">EndContactQuestionnaire</attribute>
+      <attribute name="section" valueType="text">MAIN</attribute>
+      <attribute name="page" valueType="text">1</attribute>
+      <attribute name="questionName" valueType="text">pat_email2_cat</attribute>
+      <attribute name="commentFor" valueType="text">pat_email2_cat</attribute>
+    </attributes>
+  </variable>
+</variables>
